@@ -1,7 +1,7 @@
 # 目录
 
 ## flask
-    1.[flask基础](https://github.com/AutoMachine0/Note/tree/master/flask_web)
+1.[flask基础](https://github.com/AutoMachine0/Note/tree/master/flask_web)
 ## git使用
     1.git使用总结
 ## python功能代码块
