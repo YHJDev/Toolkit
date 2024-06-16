@@ -1,7 +1,7 @@
 # 目录
 
 ## flask
-    1.flask基础
+    1.[flask基础](https://github.com/AutoMachine0/Note/tree/master/flask_web)
 ## git使用
     1.git使用总结
 ## python功能代码块
@@ -20,7 +20,7 @@
     2.Ray库
 ## pytorch建模
     1.mlp
-##面向对象编程
+## 面向对象编程
     1.python面向对象编程
 ## 爬虫
     1.bs4静态页面爬取
@@ -53,35 +53,3 @@
     8.textcnn
     9.textrnn
     10.transformer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
