@@ -4,7 +4,7 @@
 1.[git](https://github.com/AutoMachine0/Toolkit/blob/main/git%E5%B7%A5%E5%85%B7/git.ipynb)
 
 #### 环境配置
-1.[ubuntu虚拟机配置]
+1.[ubuntu虚拟机配置](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE.ipynb)
 
 #### pytorch建模
 **basic model**<br>
