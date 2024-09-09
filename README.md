@@ -5,7 +5,8 @@
 
 #### 环境配置
 1.[pyg配置](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/pyg%E9%85%8D%E7%BD%AE.ipynb)<br>
-2.[虚拟机配置](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE.ipynb)
+2.[虚拟机配置](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE.ipynb)<br>
+3.[git发布github homepage](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Github%E5%8F%91%E5%B8%83HomePage%E7%94%B5%E5%AD%90%E7%AE%80%E5%8E%86.ipynb)
 
 #### pytorch建模
 **basic model**<br>
