@@ -6,7 +6,7 @@
 #### 环境配置
 1.[pyg配置](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/pyg%E9%85%8D%E7%BD%AE.ipynb)<br>
 2.[虚拟机配置](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE.ipynb)<br>
-3.[git发布github homepage](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/git%E5%8F%91%E5%B8%83home%20page.ipynb)
+3.[git发布github homepage](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/git%E5%8F%91%E5%B8%83home%20page.ipynb)<br>
 4.[ubuntu桌面操作系统配置clash vpn](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/ubuntu%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AEclash%20vpn.ipynb)
 
 #### pytorch建模
