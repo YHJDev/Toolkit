@@ -52,26 +52,34 @@ class Node:
         return self._is_fully_expanded
 
     # 使用 UCB1 算法选择最佳子节点
-    def best_child(self, exploration_weight=math.sqrt(2)):
+    def selection(self, exploration_weight=math.sqrt(2)):
         best_score = float('-inf')
         best_children = []
         for child in self.children:
-            # 计算平均价值
-            exploit = child.total_value / child.visits
-            # 计算探索项
-            explore = exploration_weight * math.sqrt(math.log(self.visits) / child.visits)
-            # UCB1 公式
-            score = exploit + explore
+
+            if child.visits == 0:
+                # 如果子节点未被访问，赋予无限大的 UCB1 值
+                score = float('inf')
+            else:
+                # 确保父节点的访问次数不为零
+                parent_visits = max(self.visits, 1)
+                # 计算平均价值
+                exploit = child.total_value / child.visits
+                # 计算探索项
+                explore = exploration_weight * math.sqrt(math.log(parent_visits) / child.visits)
+                # 计算 UCB1 值
+                score = exploit + explore
             if score == best_score:
                 best_children.append(child)
-            if score > best_score:
+            elif score > best_score:
                 best_children = [child]
                 best_score = score
         # 随机选择得分最高的子节点
+
         return random.choice(best_children)
 
     # 扩展节点，创建一个新的子节点
-    def expand(self):
+    def expansion(self):
         # 从未尝试的候选项中选择一个值
         value = self.untried_values.pop()
         # 创建新的子节点
@@ -87,18 +95,18 @@ class Node:
         return child_node
 
 # 树策略：选择和扩展节点
-def tree_policy(node):
+def monte_carlo_tree_construction(node):
     while not node.is_terminal():
         if not node.is_fully_expanded():
             # 节点未完全扩展，进行扩展
-            return node.expand()
+            return node.expansion()
         else:
             # 节点已完全扩展，选择最佳子节点
-            node = node.best_child()
+            node = node.selection()
     return node
 
 # 默认策略：模拟（随机选择剩余的组件）
-def default_policy(node):
+def simulation(node):
     current_node = node
     architecture = []
     # 回溯获取已选择的组件值
@@ -116,7 +124,7 @@ def default_policy(node):
     return val_score
 
 # 回溯更新节点的访问次数和累计评估值，增加折扣因子
-def backup(node, reward, discount_factor=0.9):
+def backpropagation(node, reward, discount_factor=0.9):
     """
     Args:
         node: 当前节点
@@ -135,11 +143,11 @@ def backup(node, reward, discount_factor=0.9):
 def mcts(root, iterations, discount_factor=0.9):
     for _ in range(iterations):
         # 选择和扩展
-        leaf = tree_policy(root)
+        leaf = monte_carlo_tree_construction(root)
         # 模拟
-        reward = default_policy(leaf)
+        reward = simulation(leaf)
         # 回溯更新，加入折扣因子
-        backup(leaf, reward, discount_factor)
+        backpropagation(leaf, reward, discount_factor)
 
     # 从根节点开始，构建最佳架构
     best_architecture = []
