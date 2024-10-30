@@ -66,6 +66,7 @@ class Node:
                 # 计算平均价值
                 exploit = child.total_value / child.visits
                 # 计算探索项
+                # 探索项权重exploration_weight越小, 蒙特卡洛树越倾向于深入优秀建树,若越大则蒙特卡洛树倾向广度优先建树
                 explore = exploration_weight * math.sqrt(math.log(parent_visits) / child.visits)
                 # 计算 UCB1 值
                 score = exploit + explore
