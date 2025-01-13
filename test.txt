@@ -1,0 +1,43 @@
+Please explain how this manuscript advances this field of research and/or contributes something new to the literature.
+
+1.This work explores whether the benchmark graph data in graph classification problems is suitable and fair for verifying the effectiveness of GNN methods.
+
+2.This work attempts to explore the performance difference between the GNN method and the baseline method based on the structural information and attribute information of graph data to build an effective and fair evaluation method.
+
+3.This work explores multiple graph classification benchmark datasets and designs a large number of experiments to verify the effectiveness of the method proposed in this work.
+
+4.The code for this work is available, which is helpful to help researchers reproduce the results of this work.
+
+5.The research in the related work section is detailed and sufficient, which helps researchers understand the background of this work.
+
+Confidential Comments (authors will not see these comments)
+
+1.Although this work uses a large number of graph classification benchmark datasets to conduct a large number of experiments to verify the effectiveness of the proposed method，I think the core contribution of this work is just a screening of existing graph classification datasets, and the screened graph datasets are only suitable for the GNN method and baseline method discussed in this work.
+
+2.The biggest problem with this work is that for new graph classification problems, we cannot know in advance whether the graph data distribution is effective for the performance comparison between the GNN method and the baseline method.
+
+3.This work lacks a description of the performance obtained based on the structure of graph data using the baseline method, and also lacks a description of the performance obtained based on the attributes of graph data using the GNN method. The GNN methods used by the author in this work include GIN and GCN, both of which are GNN methods based on the message passing mechanism. However, the GNN method based on the message passing mechanism cannot be modeled based on the graph structure or graph attributes alone.
+
+Public Comments (these will be made available to the author)
+This work explores the effectiveness of benchmark datasets used in graph classification tasks in distinguishing GNN methods compared to other baseline methods.
+
+The advantages of this work are as follows:
+1.The research in the related work section is comprehensive, which helps readers understand the background of this study.
+
+2.This work uses a large number of real graph data sets to conduct comprehensive experiments to verify the methods proposed in this work, which is crucial to the rigor of this research.
+
+3.The author has open-sourced the code, which plays a key role in enabling researchers to reproduce the results of this work.
+
+The most serious problem is that the core research of this work does not seem to have any effect on the problem of graph classification. Specifically, my concerns are as follows:
+
+1.Based on the dataset effectiveness judgment method proposed in this work, we cannot know whether the new graph dataset is effective without testing it with the designed GNN method. If we test it, it seems meaningless to use the dataset effectiveness judgment method proposed in this work because we have already obtained the test results.
+
+2.This work lacks a detailed description of the performance obtained based on the structure of graph data using the baseline method, and also lacks a detailed description of the performance obtained based on the attributes of graph data using the GNN method. The GNN methods used by the author in this work include GIN and GCN, both of which are GNN methods based on the message passing mechanism. However, the GNN method based on the message passing mechanism cannot be modeled based on the graph structure or graph attributes alone.
+
+3.The GNN method used in this work is too old. The author should explore the performance of the latest GNN method on different graph datasets, which can enhance the reliability of this study.
+
+
+
+
+
+
