@@ -51,9 +51,9 @@
 	
 2.[图神经网络](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
 
-	1. [图神经网络基础]()
-	1. 图神经网络（GNN）处理既有节点特征又包含边特征的图数据
-	2. 图卷积网络（GCN）处理即有节点特征与边特征的图数据策略
+	1. [图神经网络基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80)
+	2. 图神经网络（GNN）处理既有节点特征又包含边特征的图数据
+	3. 图卷积网络（GCN）处理即有节点特征与边特征的图数据策略
 	
 	
 3.[强化学习](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
@@ -81,4 +81,4 @@
 7.[编程基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)
 
 	1. 面向对象编程
-	2. [数据结构与算法]
+	2. [数据结构与算法](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
