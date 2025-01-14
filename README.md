@@ -54,8 +54,7 @@
 	1.[图神经网络基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80)
 	2. 图神经网络（GNN）处理既有节点特征又包含边特征的图数据
 	3. 图卷积网络（GCN）处理即有节点特征与边特征的图数据策略
-	4. <h2>二级目录</h2>
-<p>这里是一些详细内容。<a href="https://www.baidu.com" title="百度官网">百度</a>是一个常用的搜索引擎。</p>
+	4. <h2>二级目录</h2><p>这里是一些详细内容。<a href="https://www.baidu.com" title="百度官网">百度</a>是一个常用的搜索引擎。</p>
 	
 	
 3.[强化学习](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
