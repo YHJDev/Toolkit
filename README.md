@@ -40,11 +40,6 @@
 12.[flask_web服务](https://github.com/AutoMachine0/Toolkit/tree/main/python%E5%B7%A5%E5%85%B7/flask_web%E6%9C%8D%E5%8A%A1)<br>
 13.[bs4_爬虫应用](https://github.com/AutoMachine0/Toolkit/tree/main/python%E5%B7%A5%E5%85%B7/bs4_%E7%88%AC%E8%99%AB%E5%BA%94%E7%94%A8)<br>
 
-#### 方法思想
-1.[强化学习](https://github.com/AutoMachine0/Toolkit/tree/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0)<br>
-2.[图神经网络](https://github.com/AutoMachine0/Toolkit/tree/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C)<br>
-3.[数据结构与算法](https://github.com/AutoMachine0/Toolkit/tree/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)<br>
-4.[面向对象编程](https://github.com/AutoMachine0/Toolkit/blob/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.ipynb)
 
 #### 知识笔记
 1.[模型优化](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
@@ -56,8 +51,10 @@
 	
 2.[图神经网络](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
 
+	1. [图神经网络基础]()
 	1. 图神经网络（GNN）处理既有节点特征又包含边特征的图数据
 	2. 图卷积网络（GCN）处理即有节点特征与边特征的图数据策略
+	
 	
 3.[强化学习](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
 	
@@ -74,8 +71,14 @@
 
 	1. 异常检测二分类中通常将异常点设置为0异常点设置为1的分
 
-6.[AI方法定义](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)
+6.[AI方法定义](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
+
 
 	1. 机器学习的严格定义（GPT4）
 	2. 深度学习的严格定义（GPT4）
 	3. 深度学习的定义个人理解
+	
+7.[编程基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)
+
+	1. 面向对象编程
+	2. [数据结构与算法]
