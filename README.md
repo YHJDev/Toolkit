@@ -55,10 +55,10 @@
 	4. 准确度与损失值的关系
 2.[图神经网络](https://github.com/AutoMachine0/Toolkit/tree/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C)<br>
 
-1. Torch建模计算一个batch loss如何进行反向传播
-2. 反向传播中的梯度爆炸，batch数据中Loss求和求平均处理
-3. 损失值大小与梯度的关系
-4. 准确度与损失值的关系
+	1. Torch建模计算一个batch loss如何进行反向传播
+	2. 反向传播中的梯度爆炸，batch数据中Loss求和求平均处理
+	3. 损失值大小与梯度的关系
+	4. 准确度与损失值的关系
 3.[强化学习](https://github.com/AutoMachine0/Toolkit/tree/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)<br>
 4.[特征工程](https://github.com/AutoMachine0/Toolkit/blob/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.ipynb)<br>
 5.[异常检测](https://github.com/AutoMachine0/Toolkit/blob/main/%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.ipynb)<br>
