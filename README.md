@@ -43,39 +43,39 @@
 
 #### 知识笔记
 1. [模型优化](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
-  1. Torch建模计算一个batch loss如何进行反向传播
-  2. 反向传播中的梯度爆炸，batch数据中Loss求和求平均处理
-  3. 损失值大小与梯度的关系
-  4. 准确度与损失值的关系
+   1. Torch建模计算一个batch loss如何进行反向传播
+   2. 反向传播中的梯度爆炸，batch数据中Loss求和求平均处理
+   3. 损失值大小与梯度的关系
+   4. 准确度与损失值的关系
 	
 2. [图神经网络](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
-  1. [图神经网络基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80)
-  2. 图神经网络（GNN）处理既有节点特征又包含边特征的图数据
-  3. 图卷积网络（GCN）处理即有节点特征与边特征的图数据策略
+   1. [图神经网络基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80)
+   2. 图神经网络（GNN）处理既有节点特征又包含边特征的图数据
+   3. 图卷积网络（GCN）处理即有节点特征与边特征的图数据策略
 	
 	
 3. [强化学习](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
 	
-  1. 马尔科夫过程(MP)
-  2. 马尔科夫决策过程(MDP)
-  3. 蒙特卡洛方法
-  4. GNAS蒙特卡洛树搜索(MCTS)案例
-  5. [Markov/MC/MCTS代码](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0Code)
+   1. 马尔科夫过程(MP)
+   2. 马尔科夫决策过程(MDP)
+   3. 蒙特卡洛方法
+   4. GNAS蒙特卡洛树搜索(MCTS)案例
+   5. [Markov/MC/MCTS代码](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0Code)
 	
 4. [特征工程](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
 
-  1. SKLearn Lasso回归进行特征筛选
+   1. SKLearn Lasso回归进行特征筛选
 
 5. [异常检测](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
   
-  1. 异常检测二分类中通常将异常点设置为0异常点设置为1的分
+   1. 异常检测二分类中通常将异常点设置为0异常点设置为1的分
 
 6. [AI方法定义](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
   
-  1. 机器学习的严格定义（GPT4）
-  2. 深度学习的严格定义（GPT4）
-  3. 深度学习的定义个人理解
+   1. 机器学习的严格定义（GPT4）
+   2. 深度学习的严格定义（GPT4）
+   3. 深度学习的定义个人理解
 	
 7. [编程基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)
-  1. 面向对象编程
-  2. [数据结构与算法](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
+   1. 面向对象编程
+   2. [数据结构与算法](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
