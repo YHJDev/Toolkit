@@ -50,7 +50,7 @@
    
 2. [实验设计](https://github.com/AutoMachine0/Toolkit/blob/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1.pdf)
    1. 两个随机变量之间的统计显著性计算
-   2.箱型图分析
+   2. 箱型图分析
 	
 3. [图神经网络](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0)<br>
    1. [图神经网络基础](https://github.com/AutoMachine0/Toolkit/tree/main/%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80)
